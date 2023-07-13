@@ -1,0 +1,50 @@
+{
+  "griefergames": {
+    "settings": {
+      "name": "GrieferGames",
+      "header": {
+        "labymodstatus.name": "LabyMod-Status Settings"
+      },
+      "enabled.name": "Enable Addon",
+      "enableSubServerDisplay": {
+        "name": "Display Cloud-Region",
+        "entries": {
+          "none": "Not displayed",
+          "only_type": "Only Type of Region",
+          "onlyType": "Only Type of Region",
+          "with_name": "Name of the Region",
+          "withName": "Name of the Region"
+        }
+      },
+      "enableMinigameDisplay.name": "Display Minigame Mode",
+      "updateDiscordStatus.name": "Update Discord-Status"
+    },
+    "connection_check": {
+      "old_address": {
+        "notification": {
+          "title": "§4Old Serveraddress",
+          "text": "§fThe new direct connection address is §ecloud.griefergames.net§f.",
+          "chat_message": "§8[§6GrieferGames§8] §cWarning: §7You have saved an old GrieferGames-Address. The new direct connection for the cloud is §ecloud.griefergames.net§7."
+        }
+      }
+    },
+    "region_type": {
+      "citybuild": "Citybuild",
+      "farm": "Farmworld",
+      "jail": "Jail",
+      "event": "Event",
+      "minigame": "Minigames",
+      "with_name": {
+        "citybuild": "Citybuild %s",
+        "farm": "Farmworld %s",
+        "jail": "Jail %s",
+        "event": "Event %s",
+        "minigame": "Minigames"
+      }
+    },
+    "discord_rpc": {
+      "server_name": "GrieferGames.net Cloud",
+      "state": "Online"
+    }
+  }
+}
